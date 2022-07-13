@@ -20,7 +20,19 @@ export function searchLessons(req: Request, res: Response) {
     let lessons;
 
     if (courseId) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         lessons = Object.values(LESSONS).filter(lesson => lesson.courseId == courseId).sort((l1, l2) => l1.id - l2.id);
+=======
+     lessons = Object.values(LESSONS).filter(lesson => lesson.courseId == courseId).sort((l1, l2) => l1.id - l2.id);
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+=======
+     lessons = Object.values(LESSONS).filter(lesson => lesson.courseId == courseId).sort((l1, l2) => l1.id - l2.id);
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+=======
+     lessons = Object.values(LESSONS).filter(lesson => lesson.courseId == courseId).sort((l1, l2) => l1.id - l2.id);
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
     }
     else {
         lessons = Object.values(LESSONS);

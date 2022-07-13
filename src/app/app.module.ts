@@ -33,6 +33,12 @@ import {SafeUrlPipe} from './common/safe-url.pipe';
 import {MessagesComponent} from './messages/messages.component';
 import {SearchLessonsComponent} from './search-lessons/search-lessons.component';
 import { LoadingComponent } from './loading/loading.component';
+import { CoursesCardListComponent } from './courses-card-list/courses-card-list.component';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { LoadingService } from './loading/loading.service';
+import { MessagesService } from './messages/messages.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +52,8 @@ import { LoadingComponent } from './loading/loading.component';
     SafeUrlPipe,
     MessagesComponent,
     SearchLessonsComponent,
-    LoadingComponent
+    LoadingComponent,
+    CoursesCardListComponent
 
   ],
   imports: [
@@ -74,9 +81,78 @@ import { LoadingComponent } from './loading/loading.component';
     ReactiveFormsModule
   ],
   providers: [
+    LoadingService,
+    MessagesService
   ],
   bootstrap: [AppComponent],
   entryComponents: [CourseDialogComponent]
+=======
+import {LoadingService} from './loading/loading.service';
+import {MessagesService} from './messages/messages.service';
+
+@NgModule({
+=======
+import {LoadingService} from './loading/loading.service';
+import {MessagesService} from './messages/messages.service';
+
+@NgModule({
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+=======
+import {LoadingService} from './loading/loading.service';
+import {MessagesService} from './messages/messages.service';
+
+@NgModule({
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        AboutComponent,
+        CourseComponent,
+        CourseDialogComponent,
+        LoginComponent,
+        LessonComponent,
+        SafeUrlPipe,
+        MessagesComponent,
+        SearchLessonsComponent,
+        LoadingComponent,
+        CoursesCardListComponent
+    ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        MatMenuModule,
+        MatButtonModule,
+        MatIconModule,
+        MatCardModule,
+        MatTabsModule,
+        MatSidenavModule,
+        MatListModule,
+        MatToolbarModule,
+        MatInputModule,
+        MatTableModule,
+        MatPaginatorModule,
+        MatSortModule,
+        MatProgressSpinnerModule,
+        MatDialogModule,
+        AppRoutingModule,
+        MatSelectModule,
+        MatDatepickerModule,
+        MatMomentDateModule,
+        ReactiveFormsModule
+    ],
+    providers: [
+        LoadingService,
+        MessagesService
+    ],
+    bootstrap: [AppComponent]
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+=======
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+=======
+>>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
 })
 export class AppModule {
 }
