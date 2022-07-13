@@ -6,14 +6,13 @@
 }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
-=======
->>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
-=======
->>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
-=======
->>>>>>> a46e1ede5065993676a1e08de1e9346e57b6b30c
+.course-card {
+  margin: 20px 10px;
+}
+
+.course-actions {
+  text-align: center;
+}
+

@@ -1,5 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {Lesson} from '../model/lesson';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lesson',
@@ -8,16 +7,5 @@ import {Lesson} from '../model/lesson';
 })
 export class LessonComponent  {
 
-  @Input()
-  lesson:Lesson;
-
-  @Input()
-  lesson:Lesson;
-
-  constructor() { }
-
-  ngOnInit() {
-
-  }
 
 }
